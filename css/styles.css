@@ -13,14 +13,20 @@ h1, h2 {
 
 nav ul li {
     list-style: none;
-}
-
-nav li {
     display: inline;
-    padding-top: 1px;
+
 }
 
-header.top-page {
+#top-nav ul{
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    
+}
+
+
+#top-page {
     height: 125px;
     width: auto;
     background-color: #ffffff;
@@ -28,7 +34,7 @@ header.top-page {
     border-bottom: solid #000000;
 }
 
-nav.top-nav {
+#top-nav {
     height: 75px;
     width: auto;
     background-color: #ffffff;
@@ -37,7 +43,7 @@ nav.top-nav {
 
 }
 
-nav.top-nav li {
+#top-nav li {
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 20px;
@@ -65,4 +71,47 @@ article{
     left: 200px;
 }
 
+#top-page h1{
+    position: absolute;
+    left: 100px;
+    top: 20px; 
+}
 
+#top-page .html-tag{
+    position: absolute;
+    top: 30px;
+}
+
+#close-top-header{
+    right: 60px;
+}
+
+#close-article-header{
+    position: absolute;
+    left: 0px;
+    top: 110px;
+}
+
+span#start-nav{
+    position: absolute;
+    top: 150px;
+}
+
+span#close-nav{
+    position: absolute;
+    right:60px; 
+    top: auto;
+}
+
+
+#close-article{
+    position: absolute;
+    left: 10px;
+    top: 700px;
+}
+
+
+
+
+
+ 
